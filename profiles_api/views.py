@@ -98,7 +98,7 @@ class HelloViewSet(viewsets.ViewSet):
 
         return Response({'http_method':'PATCH'})
 
-    def retrieve(self, request, pk=None):
+    def destroy(self, request, pk=None):
         """Handles removing an object"""
 
         return Response({'http_method':'DELETE'})
